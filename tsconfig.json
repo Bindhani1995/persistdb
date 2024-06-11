@@ -8,7 +8,11 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "declaration": true,
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "persistdb": ["lib/persistdb"]
+    }
   },
   "include": ["src/**/*.ts", "index.d.ts"]
 }
