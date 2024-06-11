@@ -1,4 +1,4 @@
-class BrowserDB {
+class PersistDB {
   private db: IDBDatabase | null = null;
 
   constructor(private dbName: string, private storeName: string) {
@@ -90,4 +90,4 @@ class BrowserDB {
   }
 }
 
-export default BrowserDB;
+export default PersistDB;
