@@ -1,0 +1,36 @@
+{
+  "name": "persistdb",
+  "version": "0.0.1",
+  "description": "A lightweight database solution for browsers using IndexedDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bindhani1995/persistdb.git"
+  },
+  "keywords": [
+    "indexeddb",
+    "litedb",
+    "db",
+    "browserdb",
+    "database",
+    "offlinedb",
+    "tinydb",
+    "litedb"
+  ],
+  "author": {
+    "name": "Sujit Kumar Bindhani"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/Bindhani1995/persistdb/issues"
+  },
+  "homepage": "https://github.com/Bindhani1995/persistdb#readme"
+}
