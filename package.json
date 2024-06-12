@@ -1,8 +1,8 @@
 {
   "name": "persistdb",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A lightweight database solution for browsers using IndexedDB",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
